@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-fs.readFile('callback_concents/input.txt', (err, data) => {
+fs.readFile('callback_concepts/input.txt', (err, data) => {
    if (err) return console.error(err);
    console.log(data.toString());
 });

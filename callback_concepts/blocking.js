@@ -1,5 +1,5 @@
 const fs = require("fs");
-const data = fs.readFileSync('callback_concents/input.txt');
+const data = fs.readFileSync('callback_concepts/input.txt');
 
 console.log(data.toString());
 
